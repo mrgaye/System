@@ -86,7 +86,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <i class="nav-icon fa fa-cog"></i>
               <p>
                 Management
-                <i class="right fas fa-angle-left"></i>
+                <i class="right fas fa-angle-left"></i> 
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -140,7 +140,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Main content -->
     <div class="content">
       <div class="container-fluid">
-      <router-view></router-view> 
+      <router-view></router-view>
+      <!-- set progressbar -->
+      <vue-progress-bar></vue-progress-bar> 
       </div>
       <!-- /.container-fluid -->
     </div>
